@@ -1,0 +1,67 @@
+body{
+  font-family: 'Trebuchet MS';
+}
+.movies{
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;  
+    background: #c6c3c2;
+    max-width: 800px;
+    align-items: center;
+    margin: 25px auto;
+    box-shadow: 9px 7px 2px;
+    border: 2px solid #fff;
+  }
+  
+  .movies h2{
+    margin-bottom: 14px;
+    font-size: 35px;
+    margin-left: 35%;
+  }
+  
+  .movies span{
+    font-size: 20px;
+  }
+  
+  .movies ul{
+    width: 720px;
+  }
+  
+  .movies ul li{
+    list-style: none;
+    padding: 10px;
+  }
+
+  .movies button {
+  font-family: 'Trebuchet MS';
+   float: right;
+   margin-right: 10px;
+   height: 30px;
+   width: 80px;
+   cursor: pointer;
+   background-color: rgb(255, 3, 3);
+   color: #fff;
+   border: none;
+   border-radius: 5px;
+   margin-top: -7px;
+   font-size: 17px;
+  }
+  .movies button:hover{
+    background: #c51313;
+  }
+  
+  .movies a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    background: rgb(97, 90, 90);
+    border-radius: 5px;
+    float: right;
+    padding: 5px;
+    width: 130px;
+    font-size: 17px;
+    margin-top: -7px;
+  }
+  .movies hr{
+    margin-bottom: 20px;
+  }
