@@ -22,3 +22,15 @@ header {
     border-radius: 10px;
     font-weight: 600;
 }
+
+/* MEDIA QUERIES */ 
+/*    MENOR WIDTH = 360PX      MENOR HEIGHT = 667PX */
+@media (width <= 420px) and (height < 920px) {
+    .home {
+        font-size: 20px;
+        margin-left: 20px;
+    } 
+    .filmes{
+        margin-right: 20px;
+    }
+}
